@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book App </title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.3/axios.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1> Book Your Appointment </h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <form action="#">
+                    <label for="usn"> Username :- </label>
+                    <input type="text" name="userNaam" id="usn">
+
+                    <label for="em"> Email Id :- </label>
+                    <input type="email" name="mail" id="em"> 
+
+                    <label for="pn"> Phone Number :- </label>
+                    <input type="number" name="mobile" id="pn">
+
+                    <!-- <input type="button" value="submit" id="btn"> -->
+
+                </form>
+                <button type="submit" class="btn btn-dark" id="btn"> SUBMIT </button>
+            </div>
+            <div>
+                <ul id="ulTag"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="021--BookApp_05.js"></script>
+</body>
+</html>
